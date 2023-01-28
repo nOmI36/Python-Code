@@ -13,4 +13,4 @@ steps:
 - task: PythonScript@0
   inputs:
     scriptSource: 'filePath'
-    scriptPath: './c.py'
+    scriptPath: '/c.py'
