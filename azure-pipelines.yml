@@ -13,8 +13,3 @@ steps:
 - script:
     sudo apt-get update -y
     sudo apt-get install python3
-- task: PythonScript@0
-  inputs:
-    scriptSource: 'inline'
-    script: 'print (''Hello World'')'
-  displayName: 'pytest'
